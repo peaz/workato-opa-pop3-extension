@@ -14,6 +14,7 @@ Steps to build an extension:
 2. Copy the extension JAR file to the `ext` directory. Pre-built jar: [workato-pop3-connector-1.0.0.jar](build/libs/workato-opa-pop3-extension-1.0.0.jar)
 3. Also include the following dependencies in the `ext` directory:
    - [jakarta.mail jar](https://mvnrepository.com/artifact/com.sun.mail/jakarta.mail)
+   - [jakarta.activation-api-2.1.2.jar](https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar)
    - [angus-activation-2.0.2.jar](https://repo1.maven.org/maven2/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar)
    - [angus-mail-2.0.3.jar](https://repo1.maven.org/maven2/org/eclipse/angus/angus-mail/2.0.3/angus-mail-2.0.3.jar)
 4. Update the `config/config.yml` to add the `ext` directory to the class path.
